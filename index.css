@@ -9,7 +9,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: #171717;
 
 }
 
@@ -105,3 +105,41 @@ header a:hover{
 footer .container{
     text-align: center;
 }
+
+form{
+    width: 90vw;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    background-color: rgba(50,50,50,0.5)
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color:rgb(25, 25, 150);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+
