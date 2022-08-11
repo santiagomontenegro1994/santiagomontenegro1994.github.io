@@ -2,6 +2,10 @@
     box-sizing: border box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -10,8 +14,8 @@ body{
 }
 
 h1{ font-size: 3em; color: rgb(240, 240, 240);}
-h2{ font-size: 2.5em; color: rgb(240, 240, 240);}
-h3{ font-size: 2em; color: rgb(240, 240, 240);}
+h2{ font-size: 2.5em; color:rgb(25, 25, 150);}
+h3{ font-size: 1.5em; color: rgb(240, 240, 240);}
 p{ font: 1.25em; color: rgb(240, 240, 240);}
 
 .container{
@@ -67,4 +71,37 @@ header a:hover{
     background-position: center center;
     padding: 12px;
 }
+#Banner h2{
+    color: rgb(240, 240, 240);
+}
 
+#Sobre-mi .container{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#Habilidades .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Proyectos .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#Proyectos h3{
+    margin-top: 60px;
+}
+
+#Formacion .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#Formacion h3{
+    margin-top: 60px;
+}
+
+footer .container{
+    text-align: center;
+}
