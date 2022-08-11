@@ -5,12 +5,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: rgb(10, 10, 10);
+
 }
 
-h1{ font-size: 3em;}
-h2{ font-size: 2.5em;}
-h3{ font-size: 2em;}
-p{ font: 1.25em;}
+h1{ font-size: 3em; color: rgb(240, 240, 240);}
+h2{ font-size: 2.5em; color: rgb(240, 240, 240);}
+h3{ font-size: 2em; color: rgb(240, 240, 240);}
+p{ font: 1.25em; color: rgb(240, 240, 240);}
 
 .container{
     max-width: 1400px;
@@ -18,7 +20,7 @@ p{ font: 1.25em;}
 }
 
 header{
-    background-color: rgb(20,20,20);
+    background-color: rgb(7,7,7);
 }
 
 header .container{
@@ -36,6 +38,7 @@ header nav{
 }
 
 header a{
+    font-size: 1.25em;
     padding: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -62,4 +65,6 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 12px;
 }
+
