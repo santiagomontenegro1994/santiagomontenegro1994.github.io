@@ -1,12 +1,8 @@
 
-let hideText_btn = document.getElementById('hideText_btn');
+function mostrar(idSpan,idBoton){
+    let hideText = document.getElementById(idSpan);
+    let hideText_btn = document.getElementById(idBoton);
 
-let hideText = document.getElementById('hideText');
-
-hideText_btn.addEventListener('click', toggleText);
-
-
-function toggleText() {
     hideText.classList.toggle('show');
 
     if(hideText.classList.contains('show')){
@@ -15,4 +11,5 @@ function toggleText() {
     else{
         hideText_btn.innerHTML = '+ Ver mas';
     }
+
 }
