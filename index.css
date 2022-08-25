@@ -4,6 +4,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    /*border: solid 2px red;*/
 }
 
 html{
@@ -231,12 +232,11 @@ footer i {
         float: right;
         margin-right: 20px;
         width: 100%;
-        height: 100vh;
+        height: auto;
         background: none;
         top: 0px;
         left: 0;
         text-align: right;
-        transition: all 0.0s;
     }
     header a{
         font-size: 13px;
